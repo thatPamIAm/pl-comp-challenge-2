@@ -1,120 +1,39 @@
+/*General Style*/
+
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
   background: url('../images/blue_sky.jpg') repeat;
   background-size: cover;
+  font-family: 'Open Sans', sans-serif;
 }
+
+p {
+  font-size: 8px;
+}
+
+article {
+  height: 90px;
+  border: 1px solid #cde1f0;
+  background-color: #f9fafc;
+}
+
+.icon {
+  height: 12px;
+  width: 12px;
+}
+
+/*Header Section*/
 
 .main {
   display: flex;
   flex-direction: column;
 }
 
-.player-cards {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.players {
-  flex-basis: 41%;
-  margin:5px;
-}
-
-article {
-  height:90px;
-  border: 1px solid #cde1f0;
-  background-color: #f9fafc;
-}
-
-.player-pics {
-    width:35px;
-    border-radius: 50%;
-    border: 1px solid #d6d6d8;
-    margin: 5px 5px 0px 5px;
-}
-
-.matches {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  justify-content: space-between;
-
-}
-
-.match-date {
-  flex-basis: 20%;
-
-}
-
 header {
+  margin-top: 5px;
+  text-align: center;
   font-family: 'Permanent Marker', cursive;
-  font-size: .75em;
-  margin-top:10px;
-  text-align: center;
-}
-
-h2{
-text-align: center;
-font-size: 10px;
-
-}
-
-.ad {
-  margin: 10px 25px 0px 25px;
-  text-align: center;
-  font-size: 6px;
-  background-color: #005f33;
-  color:#9fccb7;
-  padding:2px;
-  letter-spacing: .25px;
-}
-
-ul{
-  display:table;
-  margin:0 auto;
-}
-
-li {
-  display:inline-block;
-}
-
-.icon {
-  height:12px;
-  width:12px;
-  padding:10px;
-}
-
-span {
-  color:red;
-}
-
-.player-cards {
-    /*text-align: center;*/
-}
-
-
-
-.player-recognition {
-  font-size: 8px;
-  font-weight: lighter;
-  background-color: #eceeed;
-  text-align: center;
-  color: #afb1b0;
-
-}
-
-.player-name {
-  font-size: 8px;
-  font-weight: bolder;
-  text-align: center;
-  color:#5c6671;
-
-}
-
-.player-number {
-  font-size: 28px;
-  color:#5394be;
+  font-size: 14px;
 }
 
 .flag-icon {
@@ -123,20 +42,125 @@ span {
   margin-right: 10px;
 }
 
+.h-left {
+  float: left;
+  padding-left: 5px;
+}
+
+.h-right {
+  float: right;
+  padding-right: 5px;
+}
+
+ul{
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+  display: inline-block;
+}
+
+.nav {
+  padding: 10px;
+}
+
+h2 {
+text-align: center;
+font-size: 10px;
+}
+
+.ad {
+  margin: 7px 25px 5px 25px;
+  padding: 2px;
+  background-color: #005f33;
+  text-align: center;
+  letter-spacing: .25px;
+  font-size: 6px;
+  color: #9fccb7;
+}
+
+span {
+  color:#b71a1f;
+}
+
+/*Content*/
+/*Player Cards*/
+
+.player-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.players {
+  flex-basis: 41%;
+  margin: 5px;
+}
+
+.player-recognition {
+  text-align: center;
+  background-color: #eceeed;
+  color: #afb1b0;
+}
+
 .card-flex {
-  display:inline-block;
-  font-size: 8px;
+  display: inline-block;
   margin-top: 10px;
 }
 
-hr {
-  width:90%;
-  margin-top: 2px;
-  margin-bottom: 4px;
-  color:#e1e1e1;
+.player-pics {
+    width: 35px;
+    margin: 5px 5px 0px 5px;
+    border-radius: 50%;
+    border: 1px solid #d6d6d8;
+}
+
+.player-number {
+  font-size: 28px;
+  color: #5394be;
 }
 
 .stats {
   margin-top: 2px;
-  color:#5394be;
+  color: #5394be;
+}
+
+hr {
+  width: 90%;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  color: #e1e1e1;
+}
+
+.player-name {
+  text-align: center;
+  font-weight: bolder;
+  color: #5c6671;
+}
+
+/*Footer
+Matches Cards*/
+
+.matches {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.match-date {
+  flex-basis: 30%;
+}
+
+.weekday {
+  display: inline-block;
+  margin-left: 2px;
+  color: #727272;
+}
+
+.date {
+  float: right;
+  margin-top: 5px;
+  margin-right: 2px;
+  color: #707070;
 }
