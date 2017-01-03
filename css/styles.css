@@ -173,18 +173,21 @@ Matches Cards*/
   color: #707070;
 }
 
+/*Media Queries*/
+
+
 @media (max-width:850px){
+
+.nav {
+  padding:10px;
+}
 
 .player-cards {
   flex-direction: column;
 }
 
 .players {
-  margin: 30px 100px 0px 100px;
-}
-
-.nav {
-  padding:10px;
+  margin: 30px 70px 0px 70px;
 }
 
 .matches {
@@ -210,15 +213,15 @@ header {
 }
 
 .players {
-  margin: 5px;
+  margin: 5px 10px 5px 10px;
 }
 
 .player-pics {
-  width:140px;
+  width: 140px;
 }
+
 .stats {
-  font-size: 12px;  
-}
+  font-size: 12px;
 }
 
 }
