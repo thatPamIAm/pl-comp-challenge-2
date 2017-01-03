@@ -7,18 +7,18 @@ html, body {
 }
 
 p {
-  font-size: 8px;
+  font-size: 20px;
 }
 
 article {
-  height: 90px;
+  height: 275px;
   border: 1px solid #cde1f0;
   background-color: #f9fafc;
 }
 
 .icon {
-  height: 12px;
-  width: 12px;
+  height: 32px;
+  width: 32px;
 }
 
 /*Header Section*/
@@ -32,7 +32,7 @@ header {
   margin-top: 5px;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
-  font-size: 14px;
+  font-size: 32px;
 }
 
 .flag-icon {
@@ -61,21 +61,21 @@ li {
 }
 
 .nav {
-  padding: 10px;
+  padding: 20px;
 }
 
 h2 {
 text-align: center;
-font-size: 10px;
+font-size: 18px;
 }
 
 .ad {
   margin: 7px 25px 5px 25px;
-  padding: 2px;
+  padding: 4px;
   background-color: #005f33;
   text-align: center;
   letter-spacing: .25px;
-  font-size: 6px;
+  font-size: 14px;
   color: #9fccb7;
 }
 
@@ -101,7 +101,7 @@ span {
   padding: 2px;
   text-align: center;
   background-color: #eceeed;
-  font-size: 6px;
+  font-size: 18px;
   color: #afb1b0;
 }
 
@@ -111,25 +111,27 @@ span {
 }
 
 .player-pics {
-    width: 35px;
+    width: 150px;
     margin: 5px 5px 0px 5px;
     border-radius: 50%;
     border: 1px solid #d6d6d8;
 }
 
 .player-number {
-  font-size: 28px;
+  font-size: 72px;
   color: #5394be;
 }
 
 .stats {
   margin-top: 2px;
-  font-size: 6px;
+  margin-bottom: 5px;
+  font-size: 16px;
   color: #5394be;
 }
 
 .total-stats {
   color: #9e9e9e;
+  margin-bottom:10px;
 }
 
 hr {
@@ -171,9 +173,9 @@ Matches Cards*/
   color: #707070;
 }
 
-/*Media Queries*/
+Media Queries
 
-@media (max-width:1000px){
+@media (max-width:975px){
 .nav {
   padding: 6px;
 }
@@ -182,9 +184,7 @@ Matches Cards*/
 flex-basis: 60%;
 margin: 5px;
 }
-}
 
-@media (max-width:700px){
 header {
   font size: 12px;
 }
