@@ -101,7 +101,7 @@ span {
   padding: 2px;
   text-align: center;
   background-color: #eceeed;
-  font-size: 18px;
+  font-size: 16px;
   color: #afb1b0;
 }
 
@@ -173,32 +173,18 @@ Matches Cards*/
   color: #707070;
 }
 
-Media Queries
+@media (max-width:850px){
 
-@media (max-width:975px){
-.nav {
-  padding: 6px;
+.player-cards {
+  flex-direction: column;
 }
 
 .players {
-flex-basis: 60%;
-margin: 5px;
-}
-
-header {
-  font size: 12px;
-}
-
-.h-right {
-  display: none;
+  margin: 30px 100px 0px 100px;
 }
 
 .nav {
-  display: none;
-}
-
-.players {
-  flex-basis:80%;
+  padding:10px;
 }
 
 .matches {
@@ -208,14 +194,31 @@ header {
   justify-content: none;
   margin: 20px
 }
-}
 
-@media (max-width:475px){
-p {
-  font-size: 6px;
-}
+@media (max-width:550px){
 
-.card-flex {
+.nav{
   display:none;
 }
+
+.h-right {
+  display:none;
+}
+
+header {
+  font-size:26px;
+}
+
+.players {
+  margin: 5px;
+}
+
+.player-pics {
+  width:140px;
+}
+.stats {
+  font-size: 12px;  
+}
+}
+
 }
